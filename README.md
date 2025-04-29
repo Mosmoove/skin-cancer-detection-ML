@@ -5,7 +5,7 @@ This project leverages Convolutional Neural Networks to detect and classify canc
 
 # Project Overview
 
-Skin cancer is among the most common forms of cancer globally. By utilizing deep learning techniques, particularly CNN, this project aims to automate and improve the detection accuracy of inital skin cancer. The model was trained on large public image datasets from the HAM10000 dataset. Among those images are believed to be a mix of benign and malignant images.
+Skin cancer is among the most common forms of cancer globally. By utilizing deep learning techniques, particularly CNN, this project aims to automate and improve the detection accuracy of skin cancer. The model was trained on large public image datasets from the HAM10000 dataset. Among those images are believed to be a mix of benign and malignant images.
 
 # Tools & Technologies
 - Tensorflow
@@ -25,7 +25,7 @@ Skin cancer is among the most common forms of cancer globally. By utilizing deep
 
 2. Model Architecture:
       - Custom CNN with Conv2D, MaxPooling, Dropout, and Dense layers.
-      - Compiled using Adam optimizer and categorical cross-entropy loss.
+      - Compiled the model using the Adam optimizer and categorical cross-entropy loss.
       - Utilized the ResNet-50 to improve the model's accuracy.
 
 3. Training:
